@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     get "/guess_segment_url/:guess" => "params_examples#guess_query_action"
 
     post "/body_params" => "params_examples#body_params"
+
+    post "/guess_body" => "params_examples#guess_query_action"
   end
 
 end
